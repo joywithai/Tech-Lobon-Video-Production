@@ -1,0 +1,35 @@
+project:
+  channel: Tech Lobon
+  default_format: vertical
+  language: bn
+  frame_rate: 30
+  # The user has not yet specified whether 800-1000 means characters or words.
+  description_min: 800
+  description_max: 1000
+  description_unit: null
+providers:
+  # An OpenAI-compatible chat completion service is required for creative planning.
+  llm_base_url_env: VME_LLM_BASE_URL
+  llm_api_key_env: VME_LLM_API_KEY
+  llm_model_env: VME_LLM_MODEL
+  # For brief-only jobs, install edge-tts and set a user-approved voice.
+  tts: edge-tts
+  voice: null
+  # Real word timestamps from faster-whisper, never weighted interpolation.
+  asr_model: small
+  asr_device: cpu
+  asr_compute_type: int8
+  asr_min_coverage: 0.82
+resources:
+  allow_commons_search: true
+  require_license_metadata: true
+  max_download_mb: 15
+render:
+  concurrency: 2
+  crf: 20
+  sfx_target_peak_dbfs: -18
+learning:
+  default_scope: channel
+  channel: Tech Lobon
+publishing:
+  enabled: false

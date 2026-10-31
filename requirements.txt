@@ -1,0 +1,8 @@
+PyYAML>=6.0,<7
+Pillow>=10,<13
+requests>=2.31,<3
+faster-whisper>=1.1,<2
+edge-tts>=7,<8
+
+numpy>=1.26,<3
+playwright>=1.49,<2

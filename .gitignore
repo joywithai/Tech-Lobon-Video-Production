@@ -1,0 +1,25 @@
+# User inputs and output are private and must not be committed by default
+input/*
+!input/.gitkeep
+!input/src/
+input/src/*
+!input/src/.gitkeep
+output/*
+!output/.gitkeep
+work/*
+!work/.gitkeep
+.env
+.env.*
+!.env.example
+node_modules/
+**/node_modules/
+**/__pycache__/
+*.pyc
+.cache/
+**/.cache/
+**/.next/
+*.log
+engines/video-making/public/jobs/
+
+engines/video-making/public/card/
+.venv/
