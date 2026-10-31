@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "notice": "Locked channel card. Changes require explicit user approval.",
+  "files": {
+    "BrandCard.tsx": "dbfbec78f188c92a606fb968ea346593c6380fa680505f0347a44e96b037c50c",
+    "README.md": "5af04f7ee5142d87365e54c38d820f27505824e6b42080a55ead83cbc420d646",
+    "assets/bg.jpg": "f48caa04615c7d47568428ba9a7d5b4b90097b6a9f5df792664290faff32793f",
+    "assets/logo.png": "30ec1f8ff8b78b28147532e6472515ca3dee8ddf8cf551111024ddde6f63ee05",
+    "card.json": "af15313a853198cc3277618fdbe883be7ecb1d3ace528ea29f31a3eb52eb2663",
+    "fonts/DejaVu-LICENSE.txt": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+    "fonts/DejaVuSans-Bold.ttf": "a4c5bc453ca281d90ea079e596da7ae0dfeb5777497c29ec254e76d97ff6f890",
+    "fonts/Noto-LICENSE.txt": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125",
+    "fonts/NotoSansBengali-Bold.ttf": "22c9ff99baca4d31c531ce450a1369beed889467e1ad964f4b8a6f810aa46955",
+    "reference-user-diagram.png": "0724a929cfb92d1e912e9df32ff002b7a53bae060e597b689e1475e8195b239f"
+  }
+}

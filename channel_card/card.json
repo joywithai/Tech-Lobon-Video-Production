@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "locked": true,
+  "channel_name": "Tech Lobon",
+  "palette": {"background": "#182023", "ink": "#F8F4ED", "accent": "#FF963F"},
+  "allowed_chrome": ["channel_logo", "channel_name", "main_visual", "subtitle"],
+  "forbidden_chrome": ["page_number", "progress_bar", "counter", "watermark", "generic_footer", "automatic_cta"],
+  "vertical": {"width": 1080, "height": 1920, "header": [108, 64, 864, 112], "stage": [90, 204, 900, 1398], "subtitle": [180, 1630, 720, 110]},
+  "horizontal": {"width": 1920, "height": 1080, "header": [72, 25, 720, 85], "stage": [72, 128, 1776, 772], "subtitle": [310, 928, 1300, 104]},
+  "source": "Tech Lobon user-supplied channel assets and schematic; portrait preserves original stage/caption positions. Landscape is an adaptation pending user review.",
+  "change_requires_user_approval": true
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "rules": [
+    {"id":"L-001","scope":"channel","channel":"Tech Lobon","instruction":"Maintain continuous meaningful scene-specific visual development during speech; do not use repetitive generic card pulses or unrelated decorative movement as a substitute.","source":"user feedback on previous full video","status":"active"},
+    {"id":"L-002","scope":"channel","channel":"Tech Lobon","instruction":"Write spoken English technical terms in their conventional English spelling in subtitles while keeping Bangla text in Bangla.","source":"user feedback on previous full video","status":"active"},
+    {"id":"L-003","scope":"channel","channel":"Tech Lobon","instruction":"Do not read long token strings, code, or screen-only data aloud unless explicitly requested.","source":"user feedback on previous full video","status":"active"},
+    {"id":"L-004","scope":"channel","channel":"Tech Lobon","instruction":"Align visual beats and subtitles to real narration evidence; never claim estimated or automated timing is human-verified.","source":"user feedback on previous full video","status":"active"},
+    {"id":"L-005","scope":"channel","channel":"Tech Lobon","instruction":"Use scene-specific audible SFX without obscuring narration; evaluate the actual mix.","source":"user feedback on previous full video","status":"active"},
+    {"id":"L-006","scope":"channel","channel":"Tech Lobon","instruction":"Keep the locked channel card limited to channel logo, channel name, visual stage and subtitles; no page numbers, progress bars or unrelated chrome.","source":"user instruction","status":"active"}
+  ]
+}
