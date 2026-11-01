@@ -1,0 +1,1 @@
+{"event_id": "964ffd72504747069622667bc0184dff", "timestamp_utc": "2026-11-01T13:37:42.200836+00:00", "type": "output_created", "job": "20261101T122335Z-0d53a5", "project": "tech-lobon-http-https", "channel": "Tech Lobon", "applied_rule_ids": ["L-001", "L-002", "L-003", "L-004", "L-005", "L-006"], "review_status": "awaiting_user_feedback"}
