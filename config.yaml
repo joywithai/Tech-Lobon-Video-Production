@@ -3,10 +3,10 @@ project:
   default_format: vertical
   language: bn
   frame_rate: 30
-  # The user has not yet specified whether 800-1000 means characters or words.
+  # User decided on 2026-11-01: 800-1000 means characters.
   description_min: 800
   description_max: 1000
-  description_unit: null
+  description_unit: characters
 providers:
   # An OpenAI-compatible chat completion service is required for creative planning.
   llm_base_url_env: VME_LLM_BASE_URL
@@ -16,7 +16,8 @@ providers:
   tts: edge-tts
   voice: null
   # Real word timestamps from faster-whisper, never weighted interpolation.
-  asr_model: small
+  # Local GitHub-mirrored CTranslate2 model (HuggingFace unreachable in this environment).
+  asr_model: /home/user/models/fw-mirror/small
   asr_device: cpu
   asr_compute_type: int8
   asr_min_coverage: 0.82
@@ -25,7 +26,8 @@ resources:
   require_license_metadata: true
   max_download_mb: 15
 render:
-  concurrency: 2
+  # Low-RAM sandbox (4 GB): keep Remotion concurrency at 1.
+  concurrency: 1
   crf: 20
   sfx_target_peak_dbfs: -18
 learning:

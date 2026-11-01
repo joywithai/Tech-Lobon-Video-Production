@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "private": true,
   "description": "Review-first AI video production, locked channel card, thumbnails and learning box",
-  "scripts": {"render": "node engines/video-making/render.mjs"},
+  "scripts": {
+    "render": "node engines/video-making/render.mjs"
+  },
   "dependencies": {
     "@remotion/bundler": "4.0.538",
     "@remotion/renderer": "4.0.538",
+    "@sparticuz/chromium": "^153.0.0",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "remotion": "4.0.538"
   },
-  "devDependencies": {"typescript": "5.9.3", "@types/react": "19.3.0", "@types/react-dom": "19.0.0"}
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.0.0",
+    "typescript": "5.9.3"
+  }
 }
